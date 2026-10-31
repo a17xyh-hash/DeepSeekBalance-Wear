@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 底环（充值色，几乎整圈） -->
+    <path
+        android:pathData="M54,27 a27,27 0 1,0 0.1,0"
+        android:fillColor="#00000000"
+        android:strokeColor="#FCD535"
+        android:strokeWidth="5"
+        android:strokeLineCap="round" />
+
+    <!-- 剩余一小段（赠送色） -->
+    <path
+        android:pathData="M79.1,67.5 A27,27 0 0 0 79.1,40.5"
+        android:fillColor="#00000000"
+        android:strokeColor="#9B8CFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round" />
+
+    <!-- 环心的 ¥ -->
+    <path
+        android:pathData="M46,40 L54,50 L62,40"
+        android:fillColor="#00000000"
+        android:strokeColor="#EAECEF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M54,50 L54,68"
+        android:fillColor="#00000000"
+        android:strokeColor="#EAECEF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M45,55 L63,55"
+        android:fillColor="#00000000"
+        android:strokeColor="#EAECEF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M45,62 L63,62"
+        android:fillColor="#00000000"
+        android:strokeColor="#EAECEF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round" />
+</vector>
