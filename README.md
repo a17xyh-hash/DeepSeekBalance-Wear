@@ -46,7 +46,7 @@ API Key 只存在手表本地的 `SharedPreferences`，不做任何上传，也�
 需要 JDK 17、Android SDK 35。
 
 ```bash
-git clone https://github.com/<你的用户名>/DeepSeekBalance-Wear.git
+git clone https://github.com/a17xyh-hash/DeepSeekBalance-Wear.git
 cd DeepSeekBalance-Wear
 ./gradlew :wear:assembleRelease
 # 产物：wear/build/outputs/apk/release/
